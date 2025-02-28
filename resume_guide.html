@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Guide</title>
+    <link rel="stylesheet" href="resume_guide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+        <div class="tag">
+            <p>RESUME GUIDE</p>
+        </div>
+        <div class="roadmap-container">
+            <div class="roadmap">
+                <div class="step"><button onclick="showStep1()">Step 1: Gather Your Information</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showStep2()">Step 2: Set Up Overleaf</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showStep3()">Step 3: Understanding LaTeX Basics</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showStep4()">Step 4: Customize and Format Your Resume</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showStep5()">Step 5: Export and Use Your Resume</button></div>
+            </div>
+        </div>
+
+        <div class="step1_content">
+            <section class="resources">
+                <h2>Step 1: Gather Your Information</h2>
+                <p>Before you start, prepare details for the following sections:</p>
+                <h3>Personal Information</h3>
+                <ul>
+                    <li>Full Name</li>
+                    <li>Email (Use a professional one)</li>
+                    <li>Phone Number</li>
+                    <li>LinkedIn, GitHub, Portfolio (Ensure all links are working)</li>
+                </ul>
+                <h3>Education</h3>
+                <ul>
+                    <li>Degree, University, Graduation Year</li>
+                    <li>Relevant coursework (if applicable)</li>
+                </ul>
+                <h3>Work Experience</h3>
+                <ul>
+                    <li>Internships, part-time jobs, research experience</li>
+                    <li>Company name, position, duration</li>
+                    <li>Key achievements (Use action verbs and quantify impact)</li>
+                </ul>
+                <h3>Projects</h3>
+                <ul>
+                    <li>Project name, technologies used</li>
+                    <li>Key contributions (Explain what you did clearly)</li>
+                </ul>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Programming languages, frameworks, tools</li>
+                    <li>Soft skills (only if relevant)</li>
+                </ul>
+                <h3>Certifications & Awards (Optional)</h3>
+                <ul>
+                    <li>Relevant online courses, hackathons, competitions</li>
+                </ul>
+                <h3>Extracurricular Activities (Optional)</h3>
+                <ul>
+                    <li>Leadership roles, volunteering, clubs</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="step2_content">
+            <section class="resources">
+                <h2>Step 2: Set Up Overleaf</h2>
+                <p>Go to Overleaf and create a free account.</p>
+                <p>Click “New Project” and choose “Resume” from templates.</p>
+                <p>If using a template, select one suitable for your field (modern, ATS-friendly, etc.).</p>
+                <p>You can refer to the following resume templates for guidance:</p>
+                <ul>
+                    <li><a href="https://www.overleaf.com/latex/templates/resume-format-1/qcwfvqcwfqv" target="_blank">Resume Format 1</a></li>
+                    <li><a href="https://www.overleaf.com/latex/templates/resume-format-2/qcwfvqcwfqv" target="_blank">Resume Format 2</a></li>
+                    <li><a href="https://www.overleaf.com/latex/templates/dtu-sample-resume/qcwfvqcwfqv" target="_blank">DTU Sample Resume</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="step3_content">
+            <section class="resources">
+                <h2>Step 3: Understanding LaTeX Basics for Resumes</h2>
+                <p>LaTeX uses a structured syntax for document formatting. Below is a simple resume template in LaTeX:</p>
+                <pre>
+\documentclass[a4paper,10pt]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Your Name}} \\
+    Email | Phone | LinkedIn | GitHub
+\end{center}
+
+\section*{Education}
+\textbf{Degree}, University – Year of Graduation
+
+\section*{Experience}
+\textbf{Internship Title}, Company (Duration)
+\begin{itemize}
+    \item Key responsibility or achievement
+    \item Key responsibility or achievement
+\end{itemize}
+
+\section*{Projects}
+\textbf{Project Name} (Tech Stack)
+\begin{itemize}
+    \item Short description of your contribution
+\end{itemize}
+
+\section*{Skills}
+Python, Django, React, Machine Learning, Cybersecurity, etc.
+
+\end{document}
+                </pre>
+            </section>
+        </div>
+
+        <div class="step4_content">
+            <section class="resources">
+                <h2>Step 4: Customize and Format Your Resume</h2>
+                <ul>
+                    <li>Use Bold Text for company names and job roles.</li>
+                    <li>Keep Bullet Points Concise and action-oriented.</li>
+                    <li>Maintain Readability by adjusting font size and margins if necessary.</li>
+                    <li>Stick to a One-Page Format unless you have extensive experience.</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="step5_content">
+            <section class="resources">
+                <h2>Step 5: Export and Use Your Resume</h2>
+                <ul>
+                    <li>Click “Recompile” in Overleaf to preview formatting.</li>
+                    <li>Download the PDF once satisfied.</li>
+                    <li>Ensure all links are functional before submitting applications.</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="pro_tips_content">
+            <section class="resources">
+                <h2>Pro Tips for an Effective Resume</h2>
+                <ul>
+                    <li>✅ Use Action Verbs – Designed, Developed, Led, Implemented, Optimized, etc.</li>
+                    <li>✅ Quantify Impact – “Increased efficiency by 20%” sounds stronger than “Improved efficiency.”</li>
+                    <li>✅ Tailor to the Job – Customize keywords based on the job description.</li>
+                    <li>✅ Keep It Simple – No need for fancy colors or graphics; readability is key.</li>
+                </ul>
+            </section>
+        </div>
+
+        <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.facebook.com/gehubhimtal.official/" class="social-icon">
+                    <i class="fa-brands fa-facebook" alt="Facebook" width="40"></i>
+                </a>
+                <a href="https://www.instagram.com/gehubhimtal.official/" class="social-icon">
+                    <i class="fab fa-instagram" alt="Instagram" width="40"></i>
+                </a>
+                <a href="https://x.com/gehu_bhimtal" class="social-icon">
+                    <i class="fa-brands fa-x-twitter" alt="X" width="40"></i>
+                </a>
+                <a href="https://www.linkedin.com/school/graphicerahilluniversity/posts/?feedView=all" class="social-icon">
+                    <i class="fa-brands fa-linkedin" alt="LinkedIn" width="20"></i>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                <p>GRAPHIC ERA HILL UNIVERSITY, BHIMTAL © 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="resume_guide.js"></script>
+</body>
+</html>

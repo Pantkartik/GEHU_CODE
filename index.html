@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEHU INTERVIEW GUIDE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://iiast.iaic-publisher.org/wp-content/uploads/2019/08/Graphic_Era_Hill_University_Logo-removebg-preview.png" alt="GEHU Logo">
+                <div class="text1">
+                    <p>GRAPHIC ERA HILL UNIVERSITY, BHIMTAL</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="background_img"></div>
+        </div>
+        <div class="tag">
+            <p>INTERVIEW GUIDE</p>
+        </div>
+        <div class="roadmap-container">
+            <div class="roadmap">
+                <div class="step"><button onclick="showLearningLanguageContent()">LEARNING LANGUAGE</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showDSAContent()">DSA RESOURCES</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showAptitudeContent()">APTITUDE</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showCoreCSContent()">Core C.S</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showProjectsContent()">PROJECTS</button></div>
+                <div class="dotted-line-vertical1"></div>
+            </div>
+            <div class="dotted-line-horizontal"></div>
+            <div class="roadmap">
+                <div class="dotted-line-vertical2"></div>
+                <div class="step"><button onclick="showResumeBuildingContent()">RESUME BUILDING</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showInterviewQuestionsContent()">INTERVIEW QUESTION</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showInterviewExperienceContent()">INTERVIEW EXPERIENCE</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showColdEmailingContent()">COLD EMAILING</button></div>
+                <div class="dotted-line"></div>
+                <div class="step"><button onclick="showFAQContent()">FAQ</button></div>
+            </div>
+        </div>
+
+        <!-- Learning Language Content -->
+        <div class="learning_language_content">
+            <section class="resources">
+                <h2>Learning Language</h2>
+                <div class="resource-card" onclick="openLink('https://www.w3schools.com/python/')">
+                    <h3>Python Tutorial</h3>
+                    <p>Learn Python programming with examples.</p>
+                </div>
+                <div class="resource-card" onclick="openLink('https://www.javatpoint.com/java-tutorial')">
+                    <h3>Java Tutorial</h3>
+                    <p>Comprehensive Java tutorial for beginners.</p>
+                </div>
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+
+        <!-- DSA Content -->
+        <div class="dsa_content">
+            <section class="resources">
+                <h2>Resources</h2>
+                <div class="resource-card" onclick="openLink('https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/')">
+                    <h3>Striver's A2Z DSA Sheet</h3>
+                    <p>A well-structured roadmap covering all essential DSA topics.</p>
+                </div>
+                <div class="resource-card" onclick="openLink('https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/')">
+                    <h3>Love Babbar’s DSA Sheet</h3>
+                    <p>A widely used DSA sheet covering frequently asked interview questions.</p>
+                </div>
+            </section>
+
+            <section class="resources">
+                <h2>Video Playlists</h2>
+                <div class="resource-card" onclick="openLink('https://youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz')">
+                    <h3>Striver's YouTube Playlist</h3>
+                </div>
+                <div class="resource-card" onclick="openLink('https://www.youtube.com/@codestorywithMIK')">
+                    <h3>CodestoryWithMIK</h3>
+                </div>
+                <div class="resource-card" onclick="openLink('https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&si=8pAUojd-pWOscbMN')">
+                    <h3>Complete C++ Placement DSA course</h3>
+                </div>
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+
+        <!-- Aptitude Content -->
+        <div class="aptitude_content">
+            <section class="resources">
+                <h2>APTITUDE</h2>
+                <p>Here I will put the aptitude content</p>
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+
+        <!-- Core CS Content -->
+        <div class="core_cs_content">
+            <section class="resources">
+                <h2>Core C.S</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Resource Name</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Operating System -->
+                        <tr>
+                            <td rowspan="5">Operating System</td>
+                            <td>Galvin Book</td>
+                            <td><a href="https://web.uettaxila.edu.pk/CMS/AUT2011/seAOSbs/notes/Text%20-%20Silberschatz.Galvin%20-%20Operating.System.Concepts.7th.pdf" target="_blank">Open</a></td>
+                        </tr>
+                        <tr>
+                            <td>TpointTech</td>
+                            <td><a href="https://www.tpointtech.com/operating-system" target="_blank">Open</a></td>
+                        </tr>
+                        <tr>
+                            <td>GeeksforGeeks</td>
+                            <td><a href="https://www.geeksforgeeks.org/operating-systems/" target="_blank">Open</a></td>
+                        </tr>
+                        <tr>
+                            <td>GATE SMASHERS(O.S)</td>
+                            <td><a href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p" target="_blank">Watch</a></td>
+                        </tr>
+                        <tr>
+                            <td>EDUCATION 4u</td>
+                            <td><a href="https://www.youtube.com/playlist?list=PLrjkTql3jnm9U1tSPnPQWQGIGNkUwBFv-" target="_blank">Watch</a></td>
+                        </tr>
+
+                        <!-- DBMS -->
+                        <tr>
+                            <td rowspan="5">DBMS</td>
+                            <td>TpointTech</td>
+                            <td><a href="https://www.tpointtech.com/dbms-tutorial" target="_blank">Open</a></td>
+                        </tr>
+                        <tr>
+                            <td>GeeksforGeeks</td>
+                            <td><a href="https://www.geeksforgeeks.org/dbms/" target="_blank">Open</a></td>
+                        </tr>
+                        <tr>
+                            <td>YouTube Playlist 1</td>
+                            <td><a href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y" target="_blank">Watch</a></td>
+                        </tr>
+                        <tr>
+                            <td>YouTube Playlist 2</td>
+                            <td><a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRiyryTrbKHX1Sh9luYI0dhX" target="_blank">Watch</a></td>
+                        </tr>
+                        <tr>
+                            <td>SQL Playlist</td>
+                            <td><a href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiFbom4rYyl5qROgqYuCuAPD" target="_blank">Watch</a></td>
+                        </tr>
+
+                        <!-- Computer Networks -->
+                        <tr>
+                            <td rowspan="4">Computer Networks</td>
+                            <td>YouTube Playlist 1</td>
+                            <td><a href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_" target="_blank">Watch</a></td>
+                        </tr>
+                        <tr>
+                            <td>YouTube Playlist 2</td>
+                            <td><a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx" target="_blank">Watch</a></td>
+                        </tr>
+                        <tr>
+                            <td>GeeksforGeeks</td>
+                            <td><a href="https://www.geeksforgeeks.org/computer-network-tutorials/" target="_blank">Open</a></td>
+                        </tr>
+                        <tr>
+                            <td>TpointTech</td>
+                            <td><a href="https://www.tpointtech.com/computer-network-tutorial" target="_blank">Open</a></td>
+                        </tr>
+
+                        <!-- OOPS -->
+                        <tr>
+                            <td rowspan="2">OOPS</td>
+                            <td>YouTube Playlist</td>
+                            <td><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL" target="_blank">Watch</a></td>
+                        </tr>
+                        <tr>
+                            <td>GitHub Study Material</td>
+                            <td><a href="https://github.com/rkoranga/Oops-Study-Material" target="_blank">Open</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+
+        <!-- Resume Building Content -->
+        <div class="resume_building_content">
+            <section class="resources">
+                <h2>Resume Building</h2>
+                <div class="step1_content">
+                    <section class="resources">
+                        <h2>Step 1: Gather Your Information</h2>
+                        <p>Before you start, prepare details for the following sections:</p>
+                        <h3>Personal Information</h3>
+                        <ul>
+                            <li>Full Name</li>
+                            <li>Email (Use a professional one)</li>
+                            <li>Phone Number</li>
+                            <li>LinkedIn, GitHub, Portfolio (Ensure all links are working)</li>
+                        </ul>
+                        <h3>Education</h3>
+                        <ul>
+                            <li>Degree, University, Graduation Year</li>
+                            <li>Relevant coursework (if applicable)</li>
+                        </ul>
+                        <h3>Work Experience</h3>
+                        <ul>
+                            <li>Internships, part-time jobs, research experience</li>
+                            <li>Company name, position, duration</li>
+                            <li>Key achievements (Use action verbs and quantify impact)</li>
+                        </ul>
+                        <h3>Projects</h3>
+                        <ul>
+                            <li>Project name, technologies used</li>
+                            <li>Key contributions (Explain what you did clearly)</li>
+                        </ul>
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>Programming languages, frameworks, tools</li>
+                            <li>Soft skills (only if relevant)</li>
+                        </ul>
+                        <h3>Certifications & Awards (Optional)</h3>
+                        <ul>
+                            <li>Relevant online courses, hackathons, competitions</li>
+                        </ul>
+                        <h3>Extracurricular Activities (Optional)</h3>
+                        <ul>
+                            <li>Leadership roles, volunteering, clubs</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="step2_content">
+                    <section class="resources">
+                        <h2>Step 2: Set Up Overleaf</h2>
+                        <p>Go to Overleaf and create a free account.</p>
+                        <p>Click “New Project” and choose “Resume” from templates.</p>
+                        <p>If using a template, select one suitable for your field (modern, ATS-friendly, etc.).</p>
+                        <p>You can refer to the following resume templates for guidance:</p>
+                        <ul>
+                            <li><a href="https://www.overleaf.com/latex/templates/resume-format-1/qcwfvqcwfqv" target="_blank">Resume Format 1</a></li>
+                            <li><a href="https://www.overleaf.com/latex/templates/resume-format-2/qcwfvqcwfqv" target="_blank">Resume Format 2</a></li>
+                            <li><a href="https://www.overleaf.com/latex/templates/dtu-sample-resume/qcwfvqcwfqv" target="_blank">DTU Sample Resume</a></li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="step3_content">
+                    <section class="resources">
+                        <h2>Step 3: Understanding LaTeX Basics for Resumes</h2>
+                        <p>LaTeX uses a structured syntax for document formatting. Below is a simple resume template in LaTeX:</p>
+                        <pre>
+        \documentclass[a4paper,10pt]{article}
+        \usepackage{geometry}
+        \geometry{margin=1in}
+        \usepackage{enumitem}
+
+        \begin{document}
+
+        \begin{center}
+            {\LARGE \textbf{Your Name}} \\
+            Email | Phone | LinkedIn | GitHub
+        \end{center}
+
+        \section*{Education}
+        \textbf{Degree}, University – Year of Graduation
+
+        \section*{Experience}
+        \textbf{Internship Title}, Company (Duration)
+        \begin{itemize}
+            \item Key responsibility or achievement
+            \item Key responsibility or achievement
+        \end{itemize}
+
+        \section*{Projects}
+        \textbf{Project Name} (Tech Stack)
+        \begin{itemize}
+            \item Short description of your contribution
+        \end{itemize}
+
+        \section*{Skills}
+        Python, Django, React, Machine Learning, Cybersecurity, etc.
+
+        \end{document}
+                        </pre>
+                    </section>
+                </div>
+
+                <div class="step4_content">
+                    <section class="resources">
+                        <h2>Step 4: Customize and Format Your Resume</h2>
+                        <ul>
+                            <li>Use Bold Text for company names and job roles.</li>
+                            <li>Keep Bullet Points Concise and action-oriented.</li>
+                            <li>Maintain Readability by adjusting font size and margins if necessary.</li>
+                            <li>Stick to a One-Page Format unless you have extensive experience.</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="step5_content">
+                    <section class="resources">
+                        <h2>Step 5: Export and Use Your Resume</h2>
+                        <ul>
+                            <li>Click “Recompile” in Overleaf to preview formatting.</li>
+                            <li>Download the PDF once satisfied.</li>
+                            <li>Ensure all links are functional before submitting applications.</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="pro_tips_content">
+                    <section class="resources">
+                        <h2>Pro Tips for an Effective Resume</h2>
+                        <ul>
+                            <li>✅ Use Action Verbs – Designed, Developed, Led, Implemented, Optimized, etc.</li>
+                            <li>✅ Quantify Impact – “Increased efficiency by 20%” sounds stronger than “Improved efficiency.”</li>
+                            <li>✅ Tailor to the Job – Customize keywords based on the job description.</li>
+                            <li>✅ Keep It Simple – No need for fancy colors or graphics; readability is key.</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+
+        <!-- Interview Questions Content -->
+        <div class="interview_questions_content">
+            <section class="resources">
+                <h2>Interview Questions</h2>
+                <div class="resource-card" onclick="openLink('https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/')">
+                    <h3>Top 10 Algorithms</h3>
+                    <p>Most important algorithms for interviews.</p>
+                </div>
+                <div class="resource-card" onclick="openLink('https://www.interviewbit.com/coding-interview-questions/')">
+                    <h3>InterviewBit</h3>
+                    <p>Practice coding interview questions.</p>
+                </div>
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+
+        <!-- Interview Experience Content -->
+        <div class="interview_experience_content">
+            <section class="resources">
+                <h2>Interview Experience</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Position Applied For</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Google Interview Experience -->
+                        <tr>
+                            <td>Google</td>
+                            <td>Software Engineer Summer Intern</td>
+                            <td>
+                                <button onclick="showGoogleInterviewDetails()">View Details</button>
+                            </td>
+                        </tr>
+                        <!-- Atlassian Interview Experience -->
+                        <tr>
+                            <td>Atlassian</td>
+                            <td>Software Engineer Summer Intern</td>
+                            <td>
+                                <button onclick="showAtlassianInterviewDetails()">View Details</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Google Interview Details -->
+                <div id="googleInterviewDetails" class="interview-details">
+                    <h3>Google Interview Experience</h3>
+                    <p><strong>Position Applied For:</strong> Software Engineer Summer Intern</p>
+                    <p><strong>Interview Format:</strong> Initial recruiter discussion, followed by technical interviews (2 rounds)</p>
+                    <p><strong>Initial Discussion:</strong> A 15-minute introductory meet focusing on coding profiles, skills, and availability.</p>
+                    <p><strong>Technical Interviews:</strong>
+                        <ul>
+                            <li><strong>Round 1:</strong> 45-minute interview assessing problem-solving and coding abilities.</li>
+                            <li><strong>Round 2:</strong> In-depth technical evaluation focusing on system design knowledge and practical experience.</li>
+                        </ul>
+                    </p>
+                    <p><strong>Outcome:</strong> Received a call confirming selection with a positive outcome and job offer.</p>
+                    <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+                </div>
+
+                <!-- Atlassian Interview Details -->
+                <div id="atlassianInterviewDetails" class="interview-details">
+                    <h3>Atlassian Interview Experience</h3>
+                    <p><strong>Position Applied For:</strong> Software Engineer Summer Intern</p>
+                    <p><strong>Interview Format:</strong> Online assessment, followed by technical and behavioral interviews (2 rounds)</p>
+                    <p><strong>Online Assessment:</strong> Conducted on HackerRank with three medium-level coding questions.</p>
+                    <p><strong>Technical Interviews:</strong>
+                        <ul>
+                            <li><strong>Round 1:</strong> DSA-based interview focusing on data structures and algorithms.</li>
+                            <li><strong>Round 2:</strong> Leadership and values interview assessing alignment with Atlassian's core values.</li>
+                        </ul>
+                    </p>
+                    <p><strong>Outcome:</strong> Received an offer for the position on the same day.</p>
+                    <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+                </div>
+            </section>
+        </div>
+
+        <!-- Cold Emailing Content -->
+        <div class="cold_emailing_content">
+            <section class="resources">
+                <h2>Cold Emailing</h2>
+                <div class="resource-card" onclick="openLink('https://www.hubspot.com/sales/cold-email-templates')">
+                    <h3>HubSpot Cold Email Templates</h3>
+                    <p>Effective cold email templates for outreach.</p>
+                </div>
+                <div class="resource-card" onclick="openLink('https://www.yesware.com/blog/cold-email-templates/')">
+                    <h3>Yesware Cold Email Templates</h3>
+                    <p>Templates for cold emailing prospects.</p>
+                </div>
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+
+        <!-- Projects Content -->
+        <div class="projects_content">
+            <section class="resources">
+                <h2>Projects</h2>
+                <div class="resource-card" onclick="openLink('https://github.com/tuvtran/project-based-learning#c')">
+                    <h3>Project-Based Learning</h3>
+                    <p>A curated list of project-based tutorials.</p>
+                </div>
+                <div class="resource-card" onclick="openLink('https://www.freecodecamp.org/news/project-ideas/')">
+                    <h3>FreeCodeCamp Project Ideas</h3>
+                    <p>A collection of project ideas to build your portfolio.</p>
+                </div>
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+
+        <!-- FAQ Content -->
+        <div class="faq_content">
+            <section class="resources">
+                <h2>Frequently Asked Questions</h2>
+                <div class="resource-card">
+                    <h3>What is Code for Good Hackathon?</h3>
+                    <p>The Code for Good Hackathon by JPMorgan Chase & Co. (JPMC) is a corporate event aimed at encouraging students to solve real-world problems using technology. The event not only allows participants to showcase their technical and teamwork skills but also introduces them to JPMC's culture and technology infrastructure.</p>
+                    <ul>
+                        <li>Participants are grouped into teams, usually consisting of 5-7 members.</li>
+                        <li>Teams work on problems presented by nonprofit organizations associated with JPMC.</li>
+                        <li>Problems focus on social good, addressing challenges faced by nonprofits (NGOs).</li>
+                        <li>Examples include creating platforms for fundraising, optimizing resource distribution, or improving accessibility.</li>
+                        <li>JPMC employees mentor teams, offering guidance on technical implementation and best practices.</li>
+                        <li>The hackathon doubles as a recruitment event, where participants can showcase their skills to JPMC recruiters.</li>
+                    </ul>
+                </div>
+
+                <div class="resource-card">
+                    <h3>Selection Process</h3>
+                    <ol>
+                        <li>8.5 and above CGPA</li>
+                        <li>Online DSA round - 2 questions (medium to hard; topics include graphs, arrays, strings, stacks, etc.)</li>
+                        <li>Online HireVue Interview round - HR interview with questions like:</li>
+                        <ul>
+                            <li>What skills will you showcase while working in a team?</li>
+                            <li>Share an experience where you showcased your problem-solving skills?</li>
+                        </ul>
+                    </ol>
+                </div>
+
+                <div class="resource-card">
+                    <h3>The Hackathon</h3>
+                    <ul>
+                        <li>If selected, you will receive an invite from the CODE FOR GOOD team, which you must accept.</li>
+                        <li>The hackathon was conducted offline in 2024 but was online prior to this.</li>
+                        <li>Make travel arrangements for the hackathon as soon as possible. The travel money is reimbursed, so keep a record of all receipts and tickets.</li>
+                        <li>Prepare well for the hackathon. Some resources are shared below.</li>
+                        <li>All students selected for the hackathon are divided into teams of 7-8 members each. Each team consists of participants from different colleges. There could be a language barrier among your teammates, so work on your communication skills and spoken English as well.</li>
+                        <li>Each team has two mentors who are actual JPMC employees. Interact with them nicely. The mentors can also take your personal interview.</li>
+                    </ul>
+                </div>
+
+                <div class="resource-card">
+                    <h3>Getting selected for SEP Summer Internship</h3>
+                    <ul>
+                        <li>It is not necessary that only the winners of the hackathon will get the internship opportunity.</li>
+                        <li>You get selected based on your performance in the hackathon, so do your best.</li>
+                        <li>Some participants got the selection mail one month after the hackathon, whereas some got it even after 2-2.5 months.</li>
+                    </ul>
+                </div>
+
+                <div class="resource-card">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL" target="_blank">YouTube Playlist</a></li>
+                        <li><a href="https://youtu.be/SqcYOGIETPk?si=7nwGV7YnUAPejx7" target="_blank">ReactJS</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PL78RhpUUKSwfeSOOwfE9x6I5jTjn5LbY3" target="_blank">NodeJS</a></li>
+                        <li><a href="https://youtu.be/vLqTf2b6GZw?si=xjqoCrS3sSM-v0om" target="_blank">Basic Python</a></li>
+                        <li><a href="https://www.coursera.org/learn/machine-learning" target="_blank">Basic ML (apply for financial aid)</a></li>
+                        <li><a href="https://youtu.be/Ez8F0nW6S-w?si=MmK8xoN6dcLtmm0" target="_blank">Git GitHub</a></li>
+                        <li><a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/" target="_blank">DSA</a></li>
+                        <li><a href="https://www.youtube.com/@probabilitycodingisfunis1" target="_blank">Probability Coding is Fun</a></li>
+                        <li><a href="https://www.youtube.com/@codestorywithMIK" target="_blank">CodeStoryWithMIK</a></li>
+                    </ul>
+                </div>
+
+                <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.facebook.com/gehubhimtal.official/" class="social-icon">
+                    <i class="fa-brands fa-facebook" alt="Facebook" width="40"></i>
+                </a>
+                <a href="https://www.instagram.com/gehubhimtal.official/" class="social-icon">
+                    <i class="fab fa-instagram" alt="Instagram" width="40"></i>
+                </a>
+                <a href="https://x.com/gehu_bhimtal" class="social-icon">
+                    <i class="fa-brands fa-x-twitter" alt="X" width="40"></i>
+                </a>
+                <a href="https://www.linkedin.com/school/graphicerahilluniversity/posts/?feedView=all" class="social-icon">
+                    <i class="fa-brands fa-linkedin" alt="LinkedIn" width="20"></i>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                <p>GRAPHIC ERA HILL UNIVERSITY, BHIMTAL © 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
