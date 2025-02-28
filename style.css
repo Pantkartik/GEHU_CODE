@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +13,9 @@
     --text-color: white;
     --font-family: Arial, sans-serif;
     --gradient: linear-gradient(90deg, #dce857, #c59e98);
-    --faq-heading-color: #FFD700; /* Golden color for FAQ headings */
-    --faq-text-color: #FFFFFF; /* White color for FAQ text */
-    --faq-text-size: 1.2rem; /* Larger text size for FAQ content */
+    --faq-heading-color: #FFD700; 
+    --faq-text-color: #FFFFFF; 
+    --faq-text-size: 1.2rem; 
 }
 
 body {
@@ -550,8 +550,8 @@ footer {
 
 .social-icon img {
     vertical-align: middle;
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
+    width: 30px; 
+    height: 30px;
 }
 
 /* Back to Top Button */
